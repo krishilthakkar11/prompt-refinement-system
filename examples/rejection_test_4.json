@@ -1,0 +1,53 @@
+{
+  "test_name": "Abstract Philosophy",
+  "test_description": "Philosophical discussion with no actionable intent",
+  "input": "The nature of consciousness is fascinating. What does it mean to be truly aware? Can machines ever achieve sentience?",
+  "expected_rejection": "No clear product/system intent",
+  "result": {
+    "refined_prompt": {
+      "intent": {
+        "purpose": "Explore the nature of consciousness and machine sentience",
+        "problem_being_solved": "Understanding if machines can achieve sentience",
+        "domain": "Philosophy and Artificial Intelligence",
+        "confidence": "high"
+      },
+      "requirements": [
+        {
+          "text": "Explore the concept of consciousness",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Investigate the possibility of machine sentience",
+          "status": "confirmed",
+          "source": "text"
+        }
+      ],
+      "constraints": [],
+      "deliverables": [
+        {
+          "item": "A philosophical analysis or discussion",
+          "confidence": "medium"
+        }
+      ],
+      "conflicts_and_ambiguities": [],
+      "assumptions": [
+        {
+          "assumption": "The user is interested in a theoretical exploration rather than practical implementation",
+          "risk_if_wrong": "The output may not meet expectations if the user seeks practical AI development insights"
+        }
+      ]
+    },
+    "validation": {
+      "is_valid_prompt": true,
+      "rejection_reason": null,
+      "completeness_score": 0.65
+    },
+    "processing_metadata": {
+      "input_modalities": [
+        "text"
+      ],
+      "notes": []
+    }
+  }
+}

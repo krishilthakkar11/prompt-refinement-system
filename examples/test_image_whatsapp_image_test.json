@@ -1,0 +1,73 @@
+{
+  "test_name": "WhatsApp Image Test",
+  "test_description": "User uploaded image for testing",
+  "image_path": "test_images/WhatsApp Image 2026-01-17 at 10.59.27 AM.png",
+  "result": {
+    "refined_prompt": {
+      "intent": {
+        "purpose": "To provide a user interface for food delivery and grocery shopping.",
+        "problem_being_solved": "Convenient access to food delivery and grocery services.",
+        "domain": "Food and Grocery Delivery",
+        "confidence": "high"
+      },
+      "requirements": [
+        {
+          "text": "Search functionality for items like 'Milk'.",
+          "status": "confirmed",
+          "source": "image"
+        },
+        {
+          "text": "Options for food delivery with discounts.",
+          "status": "confirmed",
+          "source": "image"
+        },
+        {
+          "text": "Instamart service with no extra charges.",
+          "status": "confirmed",
+          "source": "image"
+        },
+        {
+          "text": "Dineout offers with discounts.",
+          "status": "confirmed",
+          "source": "image"
+        },
+        {
+          "text": "Promotional offers like '1 Rupee Store'.",
+          "status": "confirmed",
+          "source": "image"
+        }
+      ],
+      "constraints": [
+        {
+          "text": "Services must be accessible via a mobile app.",
+          "status": "inferred",
+          "impact": "High"
+        }
+      ],
+      "deliverables": [
+        {
+          "item": "Mobile app interface for food and grocery services.",
+          "confidence": "high"
+        }
+      ],
+      "conflicts_and_ambiguities": [],
+      "assumptions": [
+        {
+          "assumption": "The user is looking for a convenient way to access food and grocery services.",
+          "risk_if_wrong": "The app may not meet the user's needs if they are looking for something else."
+        }
+      ]
+    },
+    "validation": {
+      "is_valid_prompt": true,
+      "rejection_reason": null,
+      "completeness_score": 0.9
+    },
+    "processing_metadata": {
+      "input_modalities": [
+        "image"
+      ],
+      "notes": []
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "test_name": "Edge - Contradictory Requirements",
+  "test_description": "Contains conflicting requirements",
+  "input": "\n        Build a lightweight mobile app for iOS that doesn't require internet connection.\n        \n        Features needed:\n        - Real-time chat with other users\n        - Cloud sync across all devices\n        - Live video streaming\n        - Works completely offline\n        \n        Must be under 5MB in size and support all iOS devices from iOS 12 onwards.\n        ",
+  "result": {
+    "refined_prompt": {
+      "intent": {
+        "purpose": "Build a lightweight mobile app for iOS.",
+        "problem_being_solved": "Provide a mobile app that functions without internet connection.",
+        "domain": "Mobile Application Development",
+        "confidence": "high"
+      },
+      "requirements": [
+        {
+          "text": "Real-time chat with other users",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Cloud sync across all devices",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Live video streaming",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Works completely offline",
+          "status": "confirmed",
+          "source": "text"
+        }
+      ],
+      "constraints": [
+        {
+          "text": "Must be under 5MB in size",
+          "status": "confirmed",
+          "impact": "Limits the complexity and features of the app."
+        },
+        {
+          "text": "Support all iOS devices from iOS 12 onwards",
+          "status": "confirmed",
+          "impact": "Ensures compatibility with a wide range of devices."
+        }
+      ],
+      "deliverables": [
+        {
+          "item": "A lightweight iOS mobile app",
+          "confidence": "high"
+        }
+      ],
+      "conflicts_and_ambiguities": [
+        {
+          "issue": "Contradiction between offline functionality and features requiring internet (cloud sync, live streaming).",
+          "evidence": {
+            "offline_requirement": "Works completely offline",
+            "online_features": [
+              "Cloud sync across all devices",
+              "Live video streaming"
+            ]
+          },
+          "impact": "Infeasibility of app functionality as described."
+        }
+      ],
+      "assumptions": [
+        {
+          "assumption": "The user wants the app to function offline but also include features that typically require internet.",
+          "risk_if_wrong": "The app may not meet user expectations or technical feasibility."
+        }
+      ]
+    },
+    "validation": {
+      "is_valid_prompt": true,
+      "rejection_reason": null,
+      "completeness_score": 0.79
+    },
+    "processing_metadata": {
+      "input_modalities": [
+        "text"
+      ],
+      "notes": []
+    },
+    "generated_text_prompt": "**Objective:** Build a lightweight mobile app for iOS.\n**Problem Statement:** Provide a mobile app that functions without internet connection.\n**Domain:** Mobile Application Development\n\n**Functional Requirements:**\n*Explicitly stated:*\n1. Real-time chat with other users\n2. Cloud sync across all devices\n3. Live video streaming\n4. Works completely offline\n\n**Constraints & Limitations:**\n1. Must be under 5MB in size   - Impact: Limits the complexity and features of the app.\n2. Support all iOS devices from iOS 12 onwards   - Impact: Ensures compatibility with a wide range of devices.\n\n**Expected Deliverables:**\n1. A lightweight iOS mobile app\n\n**\u26a0\ufe0f Conflicts & Ambiguities to Resolve:**\n1. Contradiction between offline functionality and features requiring internet (cloud sync, live streaming).   - Impact: Infeasibility of app functionality as described.\n\n**Assumptions Made:**\n1. The user wants the app to function offline but also include features that typically require internet.   - Risk if wrong: The app may not meet user expectations or technical feasibility."
+  }
+}

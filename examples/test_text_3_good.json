@@ -1,0 +1,74 @@
+{
+  "test_name": "Good - Clear MVP Scope",
+  "test_description": "Well-defined minimal viable product",
+  "input": "\n        Create a task management web app for small teams (5-10 people).\n        \n        Core features:\n        - Create, assign, and track tasks\n        - Set due dates and priorities\n        - Simple kanban board view\n        - Email notifications for task updates\n        \n        Out of scope: Time tracking, invoicing, file storage.\n        Target launch: Q2 2026\n        ",
+  "result": {
+    "refined_prompt": {
+      "intent": {
+        "purpose": "Create a task management web application.",
+        "problem_being_solved": "Facilitate task management for small teams.",
+        "domain": "Task Management Software",
+        "confidence": "high"
+      },
+      "requirements": [
+        {
+          "text": "Create, assign, and track tasks",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Set due dates and priorities",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Simple kanban board view",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Email notifications for task updates",
+          "status": "confirmed",
+          "source": "text"
+        }
+      ],
+      "constraints": [
+        {
+          "text": "Out of scope: Time tracking, invoicing, file storage",
+          "status": "confirmed",
+          "impact": "Limits feature set to core task management functionalities."
+        },
+        {
+          "text": "Target launch: Q2 2026",
+          "status": "confirmed",
+          "impact": "Sets a timeline for development and release."
+        }
+      ],
+      "deliverables": [
+        {
+          "item": "Task management web application",
+          "confidence": "high"
+        }
+      ],
+      "conflicts_and_ambiguities": [],
+      "assumptions": [
+        {
+          "assumption": "The application is intended for small teams of 5-10 people.",
+          "risk_if_wrong": "The application may not scale well for larger teams."
+        }
+      ]
+    },
+    "validation": {
+      "is_valid_prompt": true,
+      "rejection_reason": null,
+      "completeness_score": 0.84
+    },
+    "processing_metadata": {
+      "input_modalities": [
+        "text"
+      ],
+      "notes": []
+    },
+    "generated_text_prompt": "**Objective:** Create a task management web application.\n**Problem Statement:** Facilitate task management for small teams.\n**Domain:** Task Management Software\n\n**Functional Requirements:**\n*Explicitly stated:*\n1. Create, assign, and track tasks\n2. Set due dates and priorities\n3. Simple kanban board view\n4. Email notifications for task updates\n\n**Constraints & Limitations:**\n1. Out of scope: Time tracking, invoicing, file storage   - Impact: Limits feature set to core task management functionalities.\n2. Target launch: Q2 2026   - Impact: Sets a timeline for development and release.\n\n**Expected Deliverables:**\n1. Task management web application\n\n**Assumptions Made:**\n1. The application is intended for small teams of 5-10 people.   - Risk if wrong: The application may not scale well for larger teams."
+  }
+}

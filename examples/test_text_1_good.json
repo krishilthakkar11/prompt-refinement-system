@@ -1,0 +1,94 @@
+{
+  "test_name": "Good - Detailed E-commerce Platform",
+  "test_description": "Clear, detailed product request with specific features",
+  "input": "\n        Build an e-commerce platform for selling handmade crafts. \n        \n        Key features needed:\n        - User registration and authentication\n        - Product catalog with search and filtering\n        - Shopping cart and checkout with multiple payment options (credit card, PayPal)\n        - Seller dashboard to manage inventory and orders\n        - Customer reviews and ratings\n        - Mobile-responsive design\n        \n        Technical requirements:\n        - Must handle 10,000 concurrent users\n        - Payment processing must be PCI compliant\n        - Need admin panel for content moderation\n        \n        Budget: $50,000\n        Timeline: 6 months\n        ",
+  "result": {
+    "refined_prompt": {
+      "intent": {
+        "purpose": "Build an e-commerce platform for selling handmade crafts.",
+        "problem_being_solved": "Provide a digital marketplace for artisans to sell their handmade crafts.",
+        "domain": "E-commerce",
+        "confidence": "high"
+      },
+      "requirements": [
+        {
+          "text": "User registration and authentication",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Product catalog with search and filtering",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Shopping cart and checkout with multiple payment options (credit card, PayPal)",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Seller dashboard to manage inventory and orders",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Customer reviews and ratings",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Mobile-responsive design",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Must handle 10,000 concurrent users",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Payment processing must be PCI compliant",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "Need admin panel for content moderation",
+          "status": "confirmed",
+          "source": "text"
+        }
+      ],
+      "constraints": [
+        {
+          "text": "Budget: $50,000",
+          "status": "confirmed",
+          "impact": "Limits the scope and technology choices."
+        },
+        {
+          "text": "Timeline: 6 months",
+          "status": "confirmed",
+          "impact": "Requires efficient project management and resource allocation."
+        }
+      ],
+      "deliverables": [
+        {
+          "item": "Fully functional e-commerce platform",
+          "confidence": "high"
+        }
+      ],
+      "conflicts_and_ambiguities": [],
+      "assumptions": []
+    },
+    "validation": {
+      "is_valid_prompt": true,
+      "rejection_reason": null,
+      "completeness_score": 0.92
+    },
+    "processing_metadata": {
+      "input_modalities": [
+        "text"
+      ],
+      "notes": []
+    },
+    "generated_text_prompt": "**Objective:** Build an e-commerce platform for selling handmade crafts.\n**Problem Statement:** Provide a digital marketplace for artisans to sell their handmade crafts.\n**Domain:** E-commerce\n\n**Functional Requirements:**\n*Explicitly stated:*\n1. User registration and authentication\n2. Product catalog with search and filtering\n3. Shopping cart and checkout with multiple payment options (credit card, PayPal)\n4. Seller dashboard to manage inventory and orders\n5. Customer reviews and ratings\n6. Mobile-responsive design\n7. Must handle 10,000 concurrent users\n8. Payment processing must be PCI compliant\n9. Need admin panel for content moderation\n\n**Constraints & Limitations:**\n1. Budget: $50,000   - Impact: Limits the scope and technology choices.\n2. Timeline: 6 months   - Impact: Requires efficient project management and resource allocation.\n\n**Expected Deliverables:**\n1. Fully functional e-commerce platform"
+  }
+}

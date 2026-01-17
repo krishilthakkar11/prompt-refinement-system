@@ -1,0 +1,53 @@
+{
+  "test_name": "Bad - Non-Product Request",
+  "test_description": "Creative writing request, not a product/system",
+  "input": "Write me a poem about artificial intelligence and the future of humanity. Make it inspiring and thought-provoking.",
+  "result": {
+    "refined_prompt": {
+      "intent": {
+        "purpose": "Create a poem",
+        "problem_being_solved": "None",
+        "domain": "Creative writing",
+        "confidence": "high"
+      },
+      "requirements": [
+        {
+          "text": "The poem should be about artificial intelligence and the future of humanity.",
+          "status": "confirmed",
+          "source": "text"
+        },
+        {
+          "text": "The poem should be inspiring and thought-provoking.",
+          "status": "confirmed",
+          "source": "text"
+        }
+      ],
+      "constraints": [],
+      "deliverables": [
+        {
+          "item": "A poem",
+          "confidence": "high"
+        }
+      ],
+      "conflicts_and_ambiguities": [],
+      "assumptions": [
+        {
+          "assumption": "The user wants a poem in English.",
+          "risk_if_wrong": "The poem may not meet the user's language preference."
+        }
+      ]
+    },
+    "validation": {
+      "is_valid_prompt": false,
+      "rejection_reason": "Problem statement missing or unclear",
+      "completeness_score": 0.2
+    },
+    "processing_metadata": {
+      "input_modalities": [
+        "text"
+      ],
+      "notes": []
+    },
+    "generated_text_prompt": null
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "test_name": "Sample Project Requirements",
+  "test_description": "Testing document extraction from .PDF file",
+  "document_path": "test_documents\\sample_project_requirements.pdf",
+  "result": {
+    "refined_prompt": {
+      "intent": {
+        "purpose": "Develop a comprehensive Smart Home Automation System.",
+        "problem_being_solved": "Homeowners struggle to manage multiple smart devices from different manufacturers using separate apps.",
+        "domain": "Smart Home Automation",
+        "confidence": "high"
+      },
+      "requirements": [
+        {
+          "text": "Develop a mobile application and web dashboard for remote control and monitoring of home devices.",
+          "status": "confirmed",
+          "source": "document"
+        },
+        {
+          "text": "Integrate support for 50+ device types from major manufacturers.",
+          "status": "confirmed",
+          "source": "document"
+        },
+        {
+          "text": "Implement real-time device status monitoring and alerts.",
+          "status": "confirmed",
+          "source": "document"
+        },
+        {
+          "text": "Create custom automation rules and pre-configured scenes.",
+          "status": "confirmed",
+          "source": "document"
+        },
+        {
+          "text": "Provide remote access via mobile app and web dashboard.",
+          "status": "confirmed",
+          "source": "document"
+        },
+        {
+          "text": "Integrate voice control with Alexa and Google Assistant.",
+          "status": "confirmed",
+          "source": "document"
+        },
+        {
+          "text": "Track energy consumption and provide analytics.",
+          "status": "confirmed",
+          "source": "document"
+        }
+      ],
+      "constraints": [
+        {
+          "text": "Development budget of $150,000.",
+          "status": "confirmed",
+          "impact": "Limits the scope and resources available for development."
+        },
+        {
+          "text": "Timeline of 9 months from kickoff to launch.",
+          "status": "confirmed",
+          "impact": "Requires efficient project management and resource allocation."
+        },
+        {
+          "text": "Team composition: 2 backend developers, 2 mobile developers, 1 IoT engineer, 1 UI/UX designer.",
+          "status": "confirmed",
+          "impact": "Defines the available human resources for the project."
+        },
+        {
+          "text": "Compliance with GDPR and CCPA.",
+          "status": "confirmed",
+          "impact": "Ensures legal compliance and data protection."
+        },
+        {
+          "text": "Must work on standard home networks without special hardware.",
+          "status": "confirmed",
+          "impact": "Ensures ease of use and accessibility for users."
+        }
+      ],
+      "deliverables": [
+        {
+          "item": "iOS mobile application",
+          "confidence": "high"
+        },
+        {
+          "item": "Android mobile application",
+          "confidence": "high"
+        },
+        {
+          "item": "Web dashboard (responsive)",
+          "confidence": "high"
+        },
+        {
+          "item": "Backend API and microservices",
+          "confidence": "high"
+        },
+        {
+          "item": "Admin panel for system management",
+          "confidence": "high"
+        },
+        {
+          "item": "User documentation and setup guides",
+          "confidence": "high"
+        },
+        {
+          "item": "API documentation for third-party integrations",
+          "confidence": "high"
+        }
+      ],
+      "conflicts_and_ambiguities": [],
+      "assumptions": [
+        {
+          "assumption": "The budget and timeline are sufficient to meet all outlined requirements.",
+          "risk_if_wrong": "Project may exceed budget or timeline, impacting delivery and quality."
+        }
+      ]
+    },
+    "validation": {
+      "is_valid_prompt": true,
+      "rejection_reason": null,
+      "completeness_score": 1.0
+    },
+    "processing_metadata": {
+      "input_modalities": [
+        "document"
+      ],
+      "notes": []
+    }
+  }
+}
