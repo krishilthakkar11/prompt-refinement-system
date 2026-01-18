@@ -1,0 +1,61 @@
+{
+  "refined_prompt": {
+    "intent": {
+      "purpose": "Develop an application for booking movie tickets and events.",
+      "problem_being_solved": "Facilitate easy booking of movie tickets and events.",
+      "domain": "Entertainment and event booking",
+      "confidence": "high"
+    },
+    "requirements": [
+      {
+        "text": "App for booking movie tickets and events.",
+        "status": "confirmed",
+        "source": "text"
+      }
+    ],
+    "constraints": [
+      {
+        "text": "Must be similar to BookMyShow.",
+        "status": "confirmed",
+        "impact": "Design and feature constraints to match existing platform."
+      }
+    ],
+    "deliverables": [
+      {
+        "item": "Mobile application for booking movie tickets and events.",
+        "confidence": "high"
+      }
+    ],
+    "conflicts_and_ambiguities": [
+      {
+        "issue": "Conflicting domains and intents across inputs.",
+        "evidence": {
+          "text": "App like BookMyShow for booking movie tickets and events.",
+          "document": "Smart Home Automation System requirements.",
+          "image": "Food delivery and grocery shopping interface."
+        },
+        "impact": "Ambiguity in project scope and domain."
+      }
+    ],
+    "assumptions": [
+      {
+        "assumption": "The primary focus is on developing a movie and event booking app.",
+        "risk_if_wrong": "Development may proceed in the wrong domain, leading to wasted resources."
+      }
+    ]
+  },
+  "validation": {
+    "is_valid_prompt": true,
+    "rejection_reason": null,
+    "completeness_score": 0.67
+  },
+  "processing_metadata": {
+    "input_modalities": [
+      "text",
+      "image",
+      "document"
+    ],
+    "notes": []
+  },
+  "generated_text_prompt": "**Objective:** Develop an application for booking movie tickets and events.\n**Problem Statement:** Facilitate easy booking of movie tickets and events.\n**Domain:** Entertainment and event booking\n\n**Functional Requirements:**\n*Explicitly stated:*\n1. App for booking movie tickets and events.\n\n**Constraints & Limitations:**\n1. Must be similar to BookMyShow.   - Impact: Design and feature constraints to match existing platform.\n\n**Expected Deliverables:**\n1. Mobile application for booking movie tickets and events.\n\n**⚠️ Conflicts & Ambiguities to Resolve:**\n1. Conflicting domains and intents across inputs.   - Impact: Ambiguity in project scope and domain.\n\n**Assumptions Made:**\n1. The primary focus is on developing a movie and event booking app.   - Risk if wrong: Development may proceed in the wrong domain, leading to wasted resources."
+}

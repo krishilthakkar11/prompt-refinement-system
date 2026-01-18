@@ -1,0 +1,115 @@
+{
+  "refined_prompt": {
+    "intent": {
+      "purpose": "Build a lightweight offline mobile app for real-time collaboration.",
+      "problem_being_solved": "Enable real-time collaboration without internet connectivity.",
+      "domain": "Mobile application development",
+      "confidence": "high"
+    },
+    "requirements": [
+      {
+        "text": "Must work completely offline without internet",
+        "status": "confirmed",
+        "source": "text"
+      },
+      {
+        "text": "Real-time synchronization across all team members",
+        "status": "confirmed",
+        "source": "text"
+      },
+      {
+        "text": "Cloud backup every 5 minutes",
+        "status": "confirmed",
+        "source": "text"
+      },
+      {
+        "text": "Minimal app size under 5MB",
+        "status": "confirmed",
+        "source": "text"
+      },
+      {
+        "text": "HD video calling feature",
+        "status": "confirmed",
+        "source": "text"
+      },
+      {
+        "text": "Works on all devices (iOS, Android, web browser)",
+        "status": "confirmed",
+        "source": "text"
+      },
+      {
+        "text": "No user registration required but personalized recommendations",
+        "status": "confirmed",
+        "source": "text"
+      },
+      {
+        "text": "Free forever with premium enterprise features",
+        "status": "confirmed",
+        "source": "text"
+      }
+    ],
+    "constraints": [
+      {
+        "text": "Budget: $5,000",
+        "status": "confirmed",
+        "impact": "High risk of not meeting all requirements within budget"
+      },
+      {
+        "text": "Timeline: 2 weeks",
+        "status": "confirmed",
+        "impact": "High risk of not meeting all requirements within timeline"
+      }
+    ],
+    "deliverables": [
+      {
+        "item": "A lightweight offline mobile app for real-time collaboration",
+        "confidence": "high"
+      }
+    ],
+    "conflicts_and_ambiguities": [
+      {
+        "issue": "Contradiction between offline functionality and cloud backup every 5 minutes",
+        "evidence": {
+          "requirement": "Cloud backup every 5 minutes"
+        },
+        "impact": "Technical feasibility issue"
+      },
+      {
+        "issue": "Contradiction between minimal app size and HD video calling feature",
+        "evidence": {
+          "requirement": "HD video calling feature"
+        },
+        "impact": "Technical feasibility issue"
+      },
+      {
+        "issue": "Contradiction between no user registration and personalized recommendations",
+        "evidence": {
+          "requirement": "Personalized recommendations"
+        },
+        "impact": "Technical feasibility issue"
+      }
+    ],
+    "assumptions": [
+      {
+        "assumption": "Real-time synchronization can be achieved offline",
+        "risk_if_wrong": "Synchronization may not function as intended"
+      },
+      {
+        "assumption": "Cloud backup can be deferred until internet is available",
+        "risk_if_wrong": "Data loss or delayed backup"
+      }
+    ]
+  },
+  "validation": {
+    "is_valid_prompt": true,
+    "rejection_reason": null,
+    "completeness_score": 0.87
+  },
+  "processing_metadata": {
+    "input_modalities": [
+      "text"
+    ],
+    "notes": []
+  },
+  "generated_text_prompt": "**Objective:** Build a lightweight offline mobile app for real-time collaboration.\n**Problem Statement:** Enable real-time collaboration without internet connectivity.\n**Domain:** Mobile application development\n\n**Functional Requirements:**\n*Explicitly stated:*\n1. Must work completely offline without internet\n2. Real-time synchronization across all team members\n3. Cloud backup every 5 minutes\n4. Minimal app size under 5MB\n5. HD video calling feature\n6. Works on all devices (iOS, Android, web browser)\n7. No user registration required but personalized recommendations\n8. Free forever with premium enterprise features\n\n**Constraints & Limitations:**\n1. Budget: $5,000   - Impact: High risk of not meeting all requirements within budget\n2. Timeline: 2 weeks   - Impact: High risk of not meeting all requirements within timeline\n\n**Expected Deliverables:**\n1. A lightweight offline mobile app for real-time collaboration\n\n**⚠️ Conflicts & Ambiguities to Resolve:**\n1. Contradiction between offline functionality and cloud backup every 5 minutes   - Impact: Technical feasibility issue\n2. Contradiction between minimal app size and HD video calling feature   - Impact: Technical feasibility issue\n3. Contradiction between no user registration and personalized recommendations   - Impact: Technical feasibility issue\n\n**Assumptions Made:**\n1. Real-time synchronization can be achieved offline   - Risk if wrong: Synchronization may not function as intended\n2. Cloud backup can be deferred until internet is available   - Risk if wrong: Data loss or delayed backup"
+}

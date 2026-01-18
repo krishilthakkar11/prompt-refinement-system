@@ -1,0 +1,48 @@
+{
+  "refined_prompt": {
+    "intent": {
+      "purpose": "To develop an app for a startup.",
+      "problem_being_solved": "Enhancing productivity.",
+      "domain": "Productivity applications",
+      "confidence": "high"
+    },
+    "requirements": [
+      {
+        "text": "The app should be modern.",
+        "status": "confirmed",
+        "source": "text"
+      },
+      {
+        "text": "The app should be user-friendly.",
+        "status": "confirmed",
+        "source": "text"
+      }
+    ],
+    "constraints": [],
+    "deliverables": [
+      {
+        "item": "A modern, user-friendly productivity app.",
+        "confidence": "high"
+      }
+    ],
+    "conflicts_and_ambiguities": [],
+    "assumptions": [
+      {
+        "assumption": "The app is intended for a general audience looking to improve productivity.",
+        "risk_if_wrong": "The app may not meet specific user needs if the target audience is different."
+      }
+    ]
+  },
+  "validation": {
+    "is_valid_prompt": true,
+    "rejection_reason": null,
+    "completeness_score": 0.65
+  },
+  "processing_metadata": {
+    "input_modalities": [
+      "text"
+    ],
+    "notes": []
+  },
+  "generated_text_prompt": "**Objective:** To develop an app for a startup.\n**Problem Statement:** Enhancing productivity.\n**Domain:** Productivity applications\n\n**Functional Requirements:**\n*Explicitly stated:*\n1. The app should be modern.\n2. The app should be user-friendly.\n\n**Expected Deliverables:**\n1. A modern, user-friendly productivity app.\n\n**Assumptions Made:**\n1. The app is intended for a general audience looking to improve productivity.   - Risk if wrong: The app may not meet specific user needs if the target audience is different."
+}

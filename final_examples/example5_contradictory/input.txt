@@ -1,0 +1,14 @@
+Build a lightweight offline mobile app for real-time collaboration.
+
+Requirements:
+- Must work completely offline without internet
+- Real-time synchronization across all team members
+- Cloud backup every 5 minutes
+- Minimal app size under 5MB
+- HD video calling feature
+- Works on all devices (iOS, Android, web browser)
+- No user registration required but personalized recommendations
+- Free forever with premium enterprise features
+
+Budget: $5,000
+Timeline: 2 weeks
