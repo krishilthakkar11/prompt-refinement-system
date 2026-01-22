@@ -1,7 +1,5 @@
 # Multi-Modal Prompt Refinement System
 
-Temporary demo (open in browser): https://fee077b0e81c.ngrok-free.app
-
 A system that transforms diverse inputs (text, images, documents) into structured, standardized prompts using GPT-4o. Built as an internship assignment for Dignifiedme Technologies.
 
 ## 🎯 Features
@@ -48,11 +46,6 @@ A system that transforms diverse inputs (text, images, documents) into structure
 python -m streamlit run "core files\app.py"
 ```
 Then open your browser to http://localhost:8501
-
-If you prefer to access a running demo in your browser (temporary), you can visit:
-
-https://93dfd28eee06.ngrok-free.app
-
 
 #### Option B: Command-Line Examples
 ```bash
